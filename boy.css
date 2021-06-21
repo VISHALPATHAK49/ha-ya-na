@@ -1,0 +1,386 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 670px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+      box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+      overflow: hidden;
+    background: #4287f5;
+    color: #333;
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  .frame h3{
+      margin-left: 200px;
+      margin-bottom: 0;
+      color: white;
+      font-family: 'Benne', serif;
+      height: max-content;
+  }
+  .boy-face{
+      width: 100px;
+      height: 100px;
+      background-color: #fcbe9a;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      /* border-top-left-radius: 25%;
+      border-top-right-radius: 25%; */
+     transform: translate(30px,220px);
+  }
+  .boy-hair{
+      width: 120px;
+      height: 20px;
+      background-color: #5C2523;
+      border-bottom-right-radius: 50%;
+      transform: translate(30px,100px);
+  }
+  .eyebrow1{
+      width: 15px;
+      height: 5px;
+      background-color: black;
+      transform: translate(97px,135px) rotate(-30deg);
+  }
+  .eyebrow2{
+    width: 15px;
+    height: 5px;
+    background-color: black;
+    transform: translate(117px,132px) rotate(30deg);
+}
+  .boy-ear{
+      width: 15px;
+      height: 15px;
+      background-color: #e79d72;
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      transform: translate(35px,120px);
+  }
+  .boy-eye1{
+      width: 20px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: white;
+      transform: translate(97px,100px);
+  }
+  .boy-eye2{
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(120px,75px);
+}
+.boy-pupil1{
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(96px,58px);
+    animation: pupil-1 3s linear 2s infinite alternate forwards;
+
+}
+.boy-pupil2{
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(119px,43px);
+    
+    animation: pupil-2 3s linear 2s infinite alternate forwards;
+
+}
+.boy-lip1{
+  width: 10px;
+  height: 15px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #e32153;
+  transform: translate(110px,60px);
+  animation: lip-1 3s linear 2s infinite alternate forwards;
+  
+}
+.sweat{
+    display: inline-block;
+  transform: rotate(-30deg);
+  border: 1px solid rgb(48, 139, 224);
+  background-color: rgb(48, 139, 224);
+  width: 5px;
+  height: 8px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: translate(70px,0px);
+
+  
+}
+.boy-neck,.girl-neck{
+    width: 10px;
+    height: 35px;
+    background-color: #fcbe9a;
+    transform: translate(70px,45px);
+}
+.boy-body{
+    width: 100px;
+    height: 150px;
+    background-color: #1b233e;
+    transform: translate(20px,35px);
+}
+.boy-baaju{
+    width: 25px;
+      height: 25px;
+      background-color: #020c2c;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      transform: translate(35px,-80px);
+
+}
+.boy-arm{
+    width: 15px;
+    height: 70px;
+    background-color: #fcbe9a;
+    transform: translate(40px,-80px);
+
+
+}
+.leg1{
+    width: 15px;
+    height: 80px;
+    background-color: #fcbe9a;
+    transform: translate(35px,-59px);
+}
+.leg2{
+    width: 15px;
+    height: 80px;
+    background-color: #fcbe9a;
+    transform: translate(95px,-140px);
+}
+.shoes1{
+    width: 35px;
+    height: 25px;
+    background-color: #000;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 50%;
+    transform: translate(32px,-144px);
+}
+.shoes2{
+    width: 35px;
+    height: 25px;
+    background-color: #000;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 50%;
+    transform: translate(92px,-170px);
+}
+.girl-hair{
+    position: relative;
+    width: 100px;
+    height: 133px;
+    background-color: #333;
+    border-radius: 50px;
+    /* z-index: 1; */
+    transform: translate(370px, -530px);
+
+}
+.hair-puff1,
+.hair-puff2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 5;
+    background: #333;
+    border-radius: 50%;
+}
+.hair-puff1{
+    transform: translate(375px,-620px);
+}
+.hair-puff2{
+    transform: translate(390px,-620px);
+}
+.girl-face{
+    width: 80px;
+      height: 80px;
+      background-color: #fcbe9a;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      transform: translate(380px,-610px);
+      z-index: 2;
+}
+.girl-eyebrow1,.girl-eyebrow2{
+    width: 15px;
+    height: 2px;
+    background-color: black;
+}
+.girl-eyebrow1{
+    transform: translate(390px,-670px);
+}
+.girl-eyebrow2{
+    transform: translate(435px,-673px);
+}
+.girl-eye1,.girl-eye2{
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50%;
+}
+.girl-eye1{
+    transform: translate(397px,-665px);
+  animation: eye1 3s linear 2s infinite alternate forwards;
+
+}
+.girl-eye2{
+    transform: translate(440px,-674px);
+  animation: eye2 3s linear 2s infinite alternate forwards;
+
+}
+.girl-nose{
+    background-color: #FF7799;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: translate(418px,-670px);
+
+}
+.girl-smile{
+    width: 10px;
+      height: 10px;
+      background-color: #fcbe9a;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom: #FF7799 5px solid;
+    transform: translate(418px,-668px);
+
+}
+.girl-neck{
+    transform: translate(416px,-678px);
+
+}
+.girl-cheek1,.girl-cheek2{
+    width: 11px;
+    height: 11px;
+    background-color: #fd96b0fa;
+    background: linear-gradient(rgb(240, 181, 181),#fd96b0fa);
+    border-radius: 50%;
+}
+.girl-cheek1{
+    transform: translate(392px,-685px);
+
+}
+.girl-cheek2{
+    transform: translate(440px,-695px);
+
+}
+.girl-tshirt{
+    width:100px;
+    position: relative;
+    height: 100px;
+    background-color: #FF7799;
+    z-index: 1;
+    transform: translate(376px,-826px);
+
+}
+.girl-frock{
+    height: 0;
+ width: 100px;
+ border-bottom: 60px solid #FF7799;
+ border-left: 45px solid transparent;
+ border-right: 45px solid transparent;
+ transform: translate(330px,-826px);
+
+}
+
+.girl-arm1,.girl-arm2{
+    width: 15px;
+    position: relative;
+    height: 70px;
+    background-color: #fcbe9a;
+    border-radius: 5px;
+    z-index: 5;
+}
+.girl-arm1{
+ transform: translate(390px,-683px) rotate(-30deg);
+
+}
+.girl-arm2{
+    transform: translate(445px,-753px) rotate(30deg);
+   
+   }
+   .girl-leg1,.girl-leg2{
+    width: 15px;
+    height: 80px;
+    background-color: #fcbe9a;
+   }
+   .girl-leg1{
+    transform:translate(380px,-826px);
+   }
+   .girl-leg2{
+    transform:translate(450px,-906px);
+   }
+   .girl-shoes1,.girl-shoes2{
+       width: 25px;
+       height: 25px;
+       border-radius: 50%;
+       background-color: black;
+   }
+   .girl-shoes1{
+    transform:translate(375px,-926px);
+
+   }
+   .girl-shoes2{
+    transform:translate(445px,-951px);
+   }
+@keyframes pupil-1 {
+    from{
+        transform: translate(96px,58px);
+    }
+    to{
+        transform: translate(105px,58px);
+    }
+    
+}
+@keyframes pupil-2 {
+    from{
+        transform: translate(119px,43px);
+    }
+    to{
+        transform: translate(128px,43px);
+    }
+    
+}
+@keyframes lip-1 {
+    from{
+        width: 10px;
+        height: 15px;
+    }
+    to{
+        width: 15px;
+        height: 20px;
+    }
+}
+@keyframes eye1 {
+    from{
+    transform: translate(397px,-665px);
+    }
+    to{
+    transform: translate(392px,-665px);
+
+    }
+}
+@keyframes eye2 {
+    from{
+        transform: translate(440px,-674px);
+    }
+    to{
+    transform: translate(435px,-674px);
+
+    }
+}
+@media screen and (max-width: 400px) {
+    .frame{
+        width: 550;
+        height: 670;
+    }
+}
